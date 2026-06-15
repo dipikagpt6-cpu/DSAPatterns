@@ -1,10 +1,12 @@
 package com.practice.BinarySerach;
 
-public class FirtsAndLastOccurance {
+public class CountTheNumberOfOccurance {
     static void main() {
         int arr[] = {1,5,7,7,7,8,8,8,10};
-        System.out.println(getFirstOccurance(arr, 8));
-        System.out.println(getLastOccurance(arr,8));
+        int fisrt = getFirstOccurance(arr, 8);
+        int last = getLastOccurance(arr,8);
+        System.out.println((last - fisrt) +1);
+
 
     }
 
@@ -46,7 +48,7 @@ return ans;
 
             }
             else{
-                low = mid +1;
+                high = mid -1;
             }
         }
         return ans;

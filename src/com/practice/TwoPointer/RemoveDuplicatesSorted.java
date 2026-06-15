@@ -8,12 +8,12 @@ public class RemoveDuplicatesSorted {
         System.out.println("Result size of array:" + resultSize);
         //System.out.println("Resultant Array:"+ Arrays.toString(arr));
         for(int i = 0; i < resultSize; i++){
-            System.out.println(arr[i]);
+            System.out.print(arr[i]);
         }
     }
 
     private static int removeduplicates(int[] arr) {
-        int k = 0;
+        int k = 1;
         for(int i = 1; i < arr.length; i++){
             if(arr[i-1] != arr[i]){
                 arr[k] = arr[i];

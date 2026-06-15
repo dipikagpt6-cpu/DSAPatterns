@@ -1,10 +1,17 @@
-package com.practice.Graph.bfs;
+package com.practice.Graph;
 
 import java.util.Arrays;
 import java.util.LinkedList;
 import java.util.Queue;
 
+/*
+shortest path in an unweighted graph/grid
+ */
+
 public class WallsAndGates {
+    /*
+    Fill each room with distance to the nearest gate.
+     */
 
     static void main() {
         int[][] arr = {{Integer.MAX_VALUE,-1,0,Integer.MAX_VALUE},{Integer.MAX_VALUE,Integer.MAX_VALUE,Integer.MAX_VALUE,-1},{Integer.MAX_VALUE,-1,Integer.MAX_VALUE,-1},{0,-1,Integer.MAX_VALUE,Integer.MAX_VALUE}};
