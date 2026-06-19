@@ -2,7 +2,7 @@ package com.practice.dfs;
 
 public class NoOFIsland {
 
-    public static void main(String args) {
+    public static void main(String[] args) {
 
         char[][] grid = {
                 {'1','1','0','0'},

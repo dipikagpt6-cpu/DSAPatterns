@@ -3,9 +3,10 @@ package com.practice.SlidingWindow;
 import java.util.HashMap;
 
 public class FruitsIntoBasket {
+//find max fruits that u ca collect?
 
     static void main() {
-        int[] fruits = {0,1,0,2,1};
+        int[] fruits = {0,1,0,2,1,3};
         System.out.println(fruitsIntoBasket(fruits, 3));
     }
 

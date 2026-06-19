@@ -24,12 +24,12 @@ public class NearestExit {
         );
          */
 
-        char[] entrance = {1, 2};
+        int[] entrance = {1, 2};
 
         System.out.println(getMinStepsToreachEntrance(maze, entrance));
     }
 
-    private static int getMinStepsToreachEntrance(char[][] maze, char[] entrance) {
+    private static int getMinStepsToreachEntrance(char[][] maze, int[] entrance) {
 
         // Defensive checks
         if (maze == null || maze.length == 0 || maze[0].length == 0) {

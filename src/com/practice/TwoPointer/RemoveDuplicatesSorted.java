@@ -1,15 +1,14 @@
 package com.practice.TwoPointer;
 
+import java.util.Arrays;
+
 public class RemoveDuplicatesSorted {
 
     static void main() {
-        int[] arr = {0, 0, 0, 5, 5, 6, 7, 10};
+        int[] arr = { 0, 0, 0, 5, 5, 6, 7,10};
         int resultSize = removeduplicates(arr);
         System.out.println("Result size of array:" + resultSize);
-        //System.out.println("Resultant Array:"+ Arrays.toString(arr));
-        for(int i = 0; i < resultSize; i++){
-            System.out.print(arr[i]);
-        }
+        System.out.println("Resultant Array:"+ Arrays.toString(arr));
     }
 
     private static int removeduplicates(int[] arr) {

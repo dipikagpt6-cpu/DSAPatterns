@@ -7,7 +7,7 @@ import java.util.Arrays;
 public class MeetingRoomI {
 
     static void main() {
-        int[][] arr = {{0, 30}, {40,45}};
+        int[][] arr = {{0, 30}, {20,45}};
         System.out.println(canAttendMeeting(arr));
     }
 

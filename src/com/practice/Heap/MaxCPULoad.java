@@ -19,9 +19,9 @@ public class MaxCPULoad {
 
     static void main() {
         Job[] jobs = {
-                new Job(1,4,3),
+                new Job(1,3,4),
                 new Job(2,5,4),
-                new Job(7,9,6)
+                new Job(7,6,9)
         };
         System.out.println(getMaxLoad(jobs));
     }

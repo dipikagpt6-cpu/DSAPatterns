@@ -3,7 +3,9 @@ package com.practice.Graph;
 import java.util.*;
 
 public class OpenLock {
-
+/*
+given deadends and target, find the number of steps to open lock
+ */
     static void main() {
         String target = "0202";
         String[] deadends = {"0201","0101","0102","1212","2002"};

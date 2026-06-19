@@ -6,7 +6,7 @@ public class CanAddInterval {
 
     static void main() {
         int[][] arr = {{1,3}, {5,6}, {4,5}, {7,9}};
-        int[] newArr = {9,10};
+        int[] newArr = {8,10};
         System.out.println(canAdd(arr, newArr));
     }
 
