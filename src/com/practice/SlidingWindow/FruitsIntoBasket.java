@@ -6,7 +6,7 @@ public class FruitsIntoBasket {
 //find max fruits that u ca collect?
 
     static void main() {
-        int[] fruits = {0,1,0,2,1,3};
+        int[] fruits = {0,1,0,2,1,3,2,4};
         System.out.println(fruitsIntoBasket(fruits, 3));
     }
 

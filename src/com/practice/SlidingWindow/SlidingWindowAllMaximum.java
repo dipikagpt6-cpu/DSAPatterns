@@ -1,4 +1,4 @@
-package com.practice.monotonicDequeue.window.aggregation;
+package com.practice.SlidingWindow;
 
 import java.util.Arrays;
 import java.util.Deque;
@@ -34,7 +34,7 @@ public class SlidingWindowAllMaximum {
                 dq.pollFirst();
             }
             //in case greater number comes
-            while(!dq.isEmpty() && dq.peekLast() <= arr[i]){
+            while(!dq.isEmpty() && arr[dq.peekLast()] <= arr[i]){
                 dq.pollLast();
             }
             //stores index, to check valid window
@@ -42,7 +42,7 @@ public class SlidingWindowAllMaximum {
 
             //is there enough elements for window to complete
             if(i >= k-1){
-                //greatest elemet is always in front.
+                //  greatest elemet is always in front.
                 result[idx++] = arr[dq.peekFirst()];
             }
         }

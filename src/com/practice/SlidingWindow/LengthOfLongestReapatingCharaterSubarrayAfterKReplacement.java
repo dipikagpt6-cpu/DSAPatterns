@@ -6,8 +6,8 @@ import java.util.HashMap;
 public class LengthOfLongestReapatingCharaterSubarrayAfterKReplacement {
 
     static void main() {
-        String str = "ABABCAC";
-        int length = findLongest(str, 3);
+        String str = "AABABBA";
+        int length = findLongest(str, 1);
         System.out.println(length);
     }
 

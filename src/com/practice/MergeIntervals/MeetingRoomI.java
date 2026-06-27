@@ -16,8 +16,6 @@ public class MeetingRoomI {
         Arrays.sort(arr, (a,b) -> a[0] -b[0]);
         for (int i = 1; i < arr.length; i++) {
             int currentStart = arr[i][0];
-            int currentEnd = arr[i][1];
-            int prevStart = arr[i-1][0];
             int prevEnd = arr[i-1][1];
             if(currentStart < prevEnd){
                 return false;

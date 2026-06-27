@@ -3,7 +3,7 @@ package com.practice.BinarySerach;
 public class PeakIndexInMountain {
 
     static void main() {
-        int arr[] = {1,2,3,4,3,3,5};
+        int arr[] = {1,2,3,4,4,4,5,4};
         System.out.println(getPeak(arr));
     }
 
